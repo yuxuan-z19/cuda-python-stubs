@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/.venv/lib/python3.12/site-packages/torch/include/**",
+                "${workspaceFolder}/.venv/lib/python3.12/site-packages/nvidia/*/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/cuda-12.2/bin/nvcc",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
